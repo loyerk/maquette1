@@ -1,0 +1,248 @@
+*{
+	margin: 0px;
+}
+a{
+	text-decoration:none;
+	color: white;
+}
+span{
+	color: #009933;
+	text-transform : lowercase;
+}
+h3{
+	text-transform : uppercase;
+	font-size: 16px;
+}
+#bodyCenter{
+	height: 1180px;
+	width: 955px;
+	margin-left: auto;
+ 	margin-right: auto;
+}
+/* Header */
+#ionisGroupHotel{
+	background-color: black;
+	height: 125px;
+	width: 955px;
+}
+#ionisHead{
+	padding-top: 10px;
+	padding-left: 20px;
+}
+#ionisH1{
+	color: white;
+	text-transform : uppercase;
+}
+#accueilContact{
+	color: white;
+	font-size: 12px;
+	padding-left: 820px;
+	padding-top: 70px;
+}
+#accueil{
+	color: white;
+	text-decoration:none;
+}
+#contact{
+	color: white;
+	text-decoration:none;
+}
+#accueil:hover{
+	color: white;
+	text-decoration:underline;
+}
+#contact:hover{
+	color: white;
+	text-decoration:underline;
+}
+/* Liste Loundge + Image à droite */
+#loundgeImg{
+	height: 380px;
+	width: 955px;
+	background-color: #009933;
+
+}
+#epitechLoundge{
+	height: 380px;
+	width: 280px;
+
+	float: left;
+}
+#listHeading{
+	text-transform: uppercase;
+	height: 40px;
+	width: 280px;
+	text-align: center;
+	color: #FFF;
+	padding-top: 30px;
+	font-size: 20px;
+	padding-bottom: 15px;
+}
+ul{
+	text-transform : uppercase;
+	margin-left: -15px;
+}
+li{
+	height: 49px;
+	list-style: none;
+}
+li:hover{
+	color: white;
+	background-color: black;
+	list-style-position: inside;
+	list-style-image: url("misc/fleche.jpg");
+	margin-left:-25px;
+}
+/* Partie avec Descriptif, Localisation, situation... */
+#partie2{
+	height: 635px;
+	width: 955px;
+}
+#rangezVousBonSang{
+	height: 635px;
+	width: 280px;
+	float: left;
+}
+#descriptif{
+	height: 340px;
+	width: 280px;
+}
+#descriptifTitreDiv{
+
+}
+#descriptifTitre{
+
+}
+#descriptifEncadrement{
+	height: 240px;
+	width: 280px;
+	padding-top: 10px;
+}
+.descripTexte{
+	font-size: 12px;
+}
+#descriptifEnSavoirPlus{
+	padding-left: 15px;
+	margin-top: 20px;
+	margin-left: 150px;
+	padding-left: 20px;
+	background-color: #009933;
+	color: white;
+	text-decoration:none;
+}
+#descriptifEnSavoirPlus:hover{
+	background-color: black;
+	color: white;
+	text-decoration:underline;
+}
+#localisation{
+	height: 290px;
+	width: 280px;
+}
+iframe{
+	width: 255px;
+	height: 185px;
+	border: 0px;
+	margin-top: 10px;
+}
+#accesAuPlan{
+	padding-left: 5px;
+	margin-top: 20px;
+	margin-left: 150px;
+	background-color: #009933;
+	font-size: 14px;
+	text-transform : uppercase;
+}
+#accesAuPlan:hover{
+	background-color: black;
+}
+#situationOffres{
+	height: 635px;
+	width: 675px;
+	float:left;
+}
+#situation{
+	height: 256px;
+	width: 630px;
+	background-color: #cccccc;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#offreDec{
+	float: left;
+}
+.bienvenueImg{
+	margin-top: 15px;
+	margin-left: 12px;
+	float: left;
+}
+#situationDroite{
+	width:265px;
+	height:225px;
+	float: right;
+	margin:10px;
+}
+#offresG{
+	height: 330px;
+	width: 315px;
+	float: left;
+	background-color: #cccccc;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#offreDec{
+	margin-top:10px;
+	margin-left:5px;
+}
+#offre_1{
+	margin-top:55px;
+}
+#offre_2{
+	margin-top: 25px;
+}
+#offreSpe{
+	margin-top:10px;
+	margin-left:5px;
+}
+#offresD{
+	height: 330px;
+	width: 305px;
+	float: left;
+	background-color: #009933;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#decTxt{
+	color: white;
+	text-transform : lowercase;
+	margin-top:10px;
+}
+.offreList{
+	font-color: white;
+}
+.offreList:hover{
+	font-color: green;
+	background-color: grey;
+}
+.offreTxtUpper{
+	text-transform : uppercase;
+	color: white;
+	font-size: 12px;
+}
+.offreTxtMin{
+	font-size: 12px;
+	color: white;
+	float: right;
+	margin-right: 50px;
+}
+/* Bottom */
+#bottom{
+	height: 45px;
+	width: 955px;
+	background-color: black;
+}
+hr{
+	color: black;
+}
